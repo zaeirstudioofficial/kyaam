@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kyaam Privacy Policy</title>
+<meta name="description" content="Privacy policy for Kyaam, the offline prayer times and Adhan alarm app for Android." />
+<style>
+  :root {
+    --bg: #f4f8f8; --card: #ffffff; --text: #26302a; --muted: #5d6b62;
+    --green: #318d2c; --soft: #e7f6e4; --border: #d9dede;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111712; --card: #1a221c; --text: #e9efea; --muted: #a6b3aa; --green: #8ee07f; --soft: #22351f; --border: #2c3a2f; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { margin-bottom: 24px; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 22px; margin: 36px 0 8px; }
+  h3 { font-size: 18px; margin: 22px 0 4px; }
+  p, li { color: var(--text); }
+  .date { color: var(--muted); margin: 0; }
+  .summary { background: var(--soft); border-radius: 14px; padding: 16px 18px; margin: 20px 0; }
+  a { color: var(--green); }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  th { font-size: 15px; color: var(--muted); }
+  tr:last-child td { border-bottom: 0; }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Kyaam Privacy Policy</h1>
+    <p class="date">Effective date: 25 October 2026</p>
+  </header>
+
+  <p>Kyaam ("the app") is a prayer times and Adhan alarm app for Android, made by [DEVELOPER NAME] ("we"). This policy explains what information the app uses, where it is kept, and the choices you have.</p>
+
+  <div class="summary">
+    <strong>In short:</strong> Kyaam has no account, no ads, no analytics and no servers of its own. Your location, settings and alarms are stored only on your phone. The only time information leaves your phone is when your phone's built-in location service looks up a place name, as described below.
+  </div>
+
+  <h2>1. Information the app uses</h2>
+
+  <h3>Location</h3>
+  <p>Kyaam needs your location to calculate prayer times. You can either:</p>
+  <ul>
+    <li><strong>Use GPS:</strong> if you give permission, the app reads your phone's location while you are using it. Kyaam does <strong>not</strong> use your location in the background. It never asks for the "Allow all the time" permission.</li>
+    <li><strong>Choose a city:</strong> you can pick a city from the list built into the app instead. This works without location permission and without internet.</li>
+  </ul>
+  <p>Prayer times are calculated on your phone. Your location is never sent to us.</p>
+  <p>When the app is open, it may check your location (only if you have already allowed it) to notice when you have travelled to a new city. It then asks you before changing anything.</p>
+
+  <h3>Settings and alarms</h3>
+  <p>Your settings (calculation method, language, clock format and similar), your alarms and your saved location are stored on your phone so the app works offline. Kyaam also keeps a copy of upcoming prayer times on your phone for the home screen widgets.</p>
+
+  <h3>Notifications and alarms</h3>
+  <p>Kyaam uses Android's notification and alarm services to ring your alarms at the right time. This happens entirely on your phone; no information is sent to us or to a push notification service.</p>
+
+  <h2>2. When information leaves your phone</h2>
+  <p>Kyaam does not send any information to us. There are two features where your phone's built-in location service is used, which may contact the internet:</p>
+  <ol>
+    <li><strong>Showing a place name for a GPS position.</strong> To show "Lahore, Pakistan" instead of coordinates, the app asks your phone's built-in geocoder to name the place. Your coordinates are sent to the geocoder for this lookup.</li>
+    <li><strong>"Search online" on the location screen.</strong> If you tap this button, the city name you typed is sent to the geocoder to find matching places.</li>
+  </ol>
+  <p>On most Android phones the geocoder is provided by Google, so these lookups are handled under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. Kyaam does not receive, store or share any information from these lookups other than the place name it shows you. If you have no internet connection, the app names the place using its built-in city list instead.</p>
+
+  <h2>3. What we do not do</h2>
+  <ul>
+    <li>We do not collect, store or sell your personal information.</li>
+    <li>We do not use advertising or advertising IDs.</li>
+    <li>We do not use analytics, tracking or crash-reporting services.</li>
+    <li>We do not require an account or sign-in.</li>
+    <li>We do not access your contacts, photos, files, microphone or camera.</li>
+  </ul>
+
+  <h2>4. Permissions</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Permission</th><th>Why Kyaam asks for it</th></tr></thead>
+      <tbody>
+        <tr><td>Location (approximate and precise), while using the app</td><td>To calculate prayer times for where you are. Optional: you can choose a city instead.</td></tr>
+        <tr><td>Notifications</td><td>To show and sound your prayer alarms.</td></tr>
+        <tr><td>Alarms &amp; reminders (exact alarms)</td><td>So alarms ring at the exact prayer time.</td></tr>
+        <tr><td>Run at startup</td><td>To restore your alarms after your phone restarts.</td></tr>
+        <tr><td>Vibration</td><td>To vibrate when an alarm rings, if you turn this on.</td></tr>
+        <tr><td>Internet</td><td>Used only by the phone's geocoder for the place-name lookups described above.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>You can change these permissions at any time in your phone's Settings.</p>
+
+  <h2>5. Keeping and deleting your information</h2>
+  <p>All information stays on your phone until you change or remove it. You can:</p>
+  <ul>
+    <li>Change your location or delete alarms in the app at any time.</li>
+    <li>Delete all of Kyaam's data by going to <strong>Settings → Apps → Kyaam → Storage → Clear storage</strong>, or by uninstalling the app.</li>
+  </ul>
+  <p>Because we do not hold any of your information, there is nothing for us to delete on a server.</p>
+
+  <h2>6. Children</h2>
+  <p>Kyaam is a general-audience app and does not knowingly collect personal information from anyone, including children.</p>
+
+  <h2>7. Security</h2>
+  <p>Your information is stored in the app's private storage on your phone, which other apps cannot read. The app does not transmit your information to us, so there is no server copy that could be exposed.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>If we change this policy, we will update the effective date above and publish the new version at this address. Significant changes will also be noted in the app's release notes on Google Play.</p>
+
+  <h2>9. Contact</h2>
+  <p>If you have questions about this policy, please contact us at <strong>[CONTACT EMAIL]</strong>.</p>
+
+  <footer>Kyaam · Prayer times and Adhan alarms</footer>
+</main>
+</body>
+</html>
